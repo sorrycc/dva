@@ -49,7 +49,7 @@ export interface EffectsCommandMap {
 }
 
 export type Effect = (action: AnyAction, effects: EffectsCommandMap) => void;
-export type EffectType = 'takeEvery' | 'takeLatest' | 'watcher' | 'throttle';
+export type EffectType = 'takeEvery' | 'takeLatest' | 'watcher' | 'throttle' | 'poll';
 export type EffectWithType = [Effect, { type: EffectType }];
 export type Subscription = (api: SubscriptionAPI, done: Function) => void;
 export type ReducersMapObjectWithEnhancer = [ReducersMapObject, ReducerEnhancer];
