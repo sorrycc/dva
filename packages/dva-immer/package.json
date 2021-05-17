@@ -10,7 +10,7 @@
     "immer": "^8.0.4"
   },
   "peerDependencies": {
-    "dva": "^2.5.0-0"
+    "dva": "^2.6.0-beta.22"
   },
   "devDependencies": {
     "dva": "2.6.0-beta.22"
